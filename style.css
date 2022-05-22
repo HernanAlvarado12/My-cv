@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.container .contact {
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(46, 72, 177);
+}
+
+.container .contact h4 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.container .contact img {
+    width: 225px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.container .contact .contact_personal article {
+    display: flex;
+    margin-top: 15px;
+}
+
+.container .contact .contact_personal img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.container .contact .item {
+   width: 50px;
+   margin-right: 10px;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   background-color: white;
+}
+
+.container .contact .skills {
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.container .contact .tecnologies{
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.container .contact .hobbies .list {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .contact .hobbies .list img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.container .data {
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 15px;
+    color: black;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container .data h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container .data h4 {
+    color: white;
+    width: max-content;
+    height: 25px;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgb(46, 72, 177);
+}
+
+.container .data .information {
+    margin-top: 30px;
+}
+
+.container .data .education {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container .data .education article {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container .data .education ul {
+    margin-left: 10px;
+}
+
+.container .data .idiom ul{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.container .data .volunteering{
+    margin-top: 30px;
+}
+
+.container .data .volunteering h5,p{
+    margin-left: 10px;
+}
